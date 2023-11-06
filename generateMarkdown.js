@@ -19,6 +19,7 @@ async function generateMarkdown() {
     // Write the final markdown file
     await fs.writeFile('slides.md', replacedTemplate, 'utf8');
 
+    
     console.log('Markdown generated successfully!');
   } catch (error) {
     console.error('Error generating markdown:', error);
