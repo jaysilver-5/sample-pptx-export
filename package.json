@@ -1,0 +1,21 @@
+{
+  "name": "my-slidev-project",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "generate-markdown": "node generateMarkdown.js",
+    "export-to-pdf": "node exportToPDF.js"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.43.13",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "fs": "^0.0.2",
+    "puppeteer": "^21.5.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.39.0"
+  }
+}
